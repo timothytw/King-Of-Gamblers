@@ -12,4 +12,5 @@ Game is designed to be simple enough so that users do not need a manual to figur
   <li>Implement OO?</li>
   <li>Buggy "options" users can use to win better</li>
   <li>Better way to generate random number</li>
+  <li>So many global vars</li>
 </ol>
