@@ -1,0 +1,53 @@
+<!--
+	timothytw
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>King of Gamblers</title>
+	<link rel="stylesheet" type="text/css" href="kog.css">
+	<script type="text/javascript" src="kog.js"></script>
+</head>
+<body onload="generateWinNumber();">
+
+	<div id="bank">
+		<span id="amt"><span id="playerAmt">$5</span> / $500</span>
+	</div>
+
+	<div id="aid" class="doubleContent">
+		<span id="aidHeader"><span style="font-size: 20px;"><strong>King of Gamblers</strong></span><br/><br/>Can you make <strong>$500</strong> off of $5? <br/>Ask for help (Their answers may not be related to each other)</span>
+		<div class="aidBox" onclick="santaWillGuess();">
+			<span class="nameAndCost">Ask Santa | $5</span>
+			<span class="detail">You were on his naughty list last year though...</span>
+			<span class="helpGuess" id="santaGuess"></span>
+		</div>
+		<div class="aidBox" onclick="hackerGuess();">
+			<span class="nameAndCost">Ask Hacker | <span id="hPrice">$3</span></span>
+			<span class="detail">Gives you a possible range</span>
+			<span class="helpGuess" id="hackerGuess"></span>
+		</div>
+		<div class="aidBox" onclick="friendWillGuess();">
+			<span class="nameAndCost">Ask Your 4.0 GPA Friend | $2</span>
+			<span class="detail">Smart or lucky?</span>
+			<span class="helpGuess" id="friendGuess"></span>
+		</div>
+		<div class="aidBox" onclick="satanWillGuess();">
+			<span class="nameAndCost">Ask Satan | $1</span>
+			<span class="detail">Maybe Satan can help. Cheap price too.</span>
+			<span class="helpGuess" id="satanGuess"></span>
+		</div>
+	</div>
+
+
+	<div id="game" class="doubleContent">
+		<span id="twoNum">1 to 3</span>
+		<input type="text" placeholder="Guess" id="guessNum" style="margin-left: 150px; width: 50%; height: 50px; font-size: 50px;"/><br/><br/><br/><hr/>
+		<span style="margin-left: 25px;">How much would you like to bet? <em>(<strong>Win 2x the amount!</strong> Lose only 1x!)</em></span><br/>
+		<input type="text" placeholder="$" id="betAmt" style="margin-left: 150px;width: 50%; height: 50px; font-size: 50px;"/><br/>
+		<input type="submit" onclick="guess()" style="margin-left: auto; margin-right: auto; width: 100px; height: 100px; font-size: 30px;" value="Guess"/>
+		<span id="result"></span>
+	</div>
+
+</body>
+</html>

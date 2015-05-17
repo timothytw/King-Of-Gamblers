@@ -1,0 +1,111 @@
+/*
+	timothytw
+*/
+
+body {
+	width:1440px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #000000;
+}
+
+#bank {
+	width: 80%;
+	background: #000000;
+	height: 65px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #FFFFFF;
+}
+#amt {
+	display: block;
+	font-size: 50px;
+	color: green;
+	text-align: center;
+	width: 100%;
+	padding-top: 5px;
+	font-family: "Arial", Gadget, sans-serif;
+}
+.doubleContent {
+	width: 600px;
+	margin-top: 10px;
+	float: left;
+}
+#aid {
+	margin-left: 75px;
+}
+.aidBox {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000000;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	height: 120px;
+}
+.detail {
+	font-size: 12px;
+	color: #FFFFFF;
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-top: 5px;
+}
+.aidBox:hover {
+	cursor: pointer;
+}
+.nameAndCost {
+	display: block;
+	font-size: 22px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 15px;
+}
+.helpGuess {
+	display: block;
+	font-size: 30px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 5px;
+}
+#aidHeader {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 13px;
+}
+#game {
+	margin-left: 50px;
+}
+#game input {
+	display: block;
+	margin-top: 30px;
+	text-align: center;
+}
+#result {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 25px;
+}
+#result input {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#twoNum {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 20px;
+}
+
+
+
+
+
+
+
+
